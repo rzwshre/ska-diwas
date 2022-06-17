@@ -1,0 +1,59 @@
+body {
+  --dark-one: #cfcaff;
+  --purple: #3a2b63;
+}
+
+.App {
+  height: 100vh;
+  background: linear-gradient(90deg, var(--purple), var(--dark-one));
+  color: aliceblue;
+  font-size: 32pt;
+  font-weight: 700;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  padding-right: 0;
+  user-select: none;
+}
+
+
+.navigate-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navigate-back {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 25%;
+}
+
+.navigate-forward {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 75%;
+}
+
+.textarena {
+  scrollbar-width: none !important;
+  }
+
+  .textarena::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.downloadbutton {
+  cursor: pointer;
+  border: 3px solid #cfcaff;
+  padding: 30px;
+  margin: 50px 0;
+  border-radius: 8px;
+  text-align: center;
+  background: #3a2b63;
+  color: #cfcaff
+}
